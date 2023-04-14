@@ -9,12 +9,14 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #00989d;
+    height: 70vh;
 }
 
 .upper-box {
     position: relative;
     display: flex;
-    height: 50%;
+    /* height: 50%; */
+    height: 30%;
     background-color: #00989d;
 }
 
@@ -28,6 +30,12 @@ body {
     border: white 0.3rem solid;
 }
 
+.lower-box {
+    position: relative;
+    display: flex;
+    height: 70%;
+    background-color: #00989d;
+}
 
 .circle {
     position: absolute;
