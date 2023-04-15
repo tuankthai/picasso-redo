@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color:darkseagreen; 
 }
 
 .container {
@@ -175,3 +176,21 @@ body {
     /* background: #00989d; */
     background: #c9e265;
 }
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color:darkgray;
+    }
+}
+
+/* Selects the second element of div siblings */
+div:nth-child(3) {
+    background: red;
+}
+
